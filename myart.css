@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;}
+
+p {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #cc5fff
+}
+
+h2 {
+font-family: "Oswald", sans-serif;
+font-optical-sizing: auto;
+font-style: normal;
+color: #025d6e;
+}
+
+.tabela {
+    border: 5px solid aqua;
+    margin-right: 30px;
+}
+.meio {
+    align-content: center;
+    font-size: 30px;
+    }
+.meio{
+        padding: 16px 0;
+        background-color: #d87093;
+        color: black;}
+
+        header .container , section .container {
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+        }
+        section .container {
+            align-items: flex-start;
+            justify-content: space-around;
+        }
+        
+        section h2 {
+            margin-bottom: 16px;
+        }
+        section p {
+            margin-bottom: 8px;
+        }
+
+.galery {
+    width:360px;
+    height: 360px;
+    overflow: hidden;
+}
+
+.galery .fotos {
+    width: 500%;
+    animation-name: animação;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.galery .fotos img {
+    width: 19.9%;
+}
+
+.roleta {
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 0px;
+}
+
+.roleta img {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    height: 331px;
+    width: 331px;
+}
+
+.roleta {
+    background-color: rgb(168, 168, 255);
+}
+
+@keyframes animação {
+    0% { margin-left: 0;}
+    20% { margin-left: 0;}
+    25% { margin-left: -100%;}
+    45% { margin-left: -100%;}
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    75% {margin-left: -300%;}
+    95% {margin-left: -300%;}
+    100% {margin-left: -400%;}
+}
+
+.bar {
+    inset: 640px 200px;
+    -ms-flex-item-align: center; 
+justify-content: center;
+height: 30px; 
+font-size: medium;
+background-color: black;
+color: aliceblue;
+text-decoration:none;
+position:fixed;
+bottom:auto;
+}

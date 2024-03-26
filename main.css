@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+p {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #cc5fff
+}
+
+h2 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:bold;
+    font-style: normal;
+color: #025d6e;
+}
+header {
+    padding: 16px 0;
+    background-color: #ec81a5;
+    color: black;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 20px;
+}
+
+header nav li a {
+    color: black;
+    text-decoration: none;
+    background-color: rgb(69, 184, 250);
+    font-size: 30px;
+    margin-right: 20px;
+}
+header nav li a:hover {
+text-decoration:underline;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 0;
+}
+
+header .container , section .container {
+    display: flex;
+align-items: center;
+justify-content:space-around;
+}
+article {
+    flex-wrap: wrap;
+    display: flex;
+
+}
+article > p {
+    margin-left: 20px;
+}
+
+article img {
+    height: 140px;
+    width: 140px;
+}
+
+.kofibanner {
+    height: auto;
+    width: 304px;
+}
+section .container {
+    align-items: flex-start;
+    justify-content: space-around;
+}
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+section p {
+    margin-bottom: 8px;
+}
+
+.perfil {
+    margin-right: 32px;
+}
+.perfil{
+    border: 5px solid aqua;
+}
+.social img{
+    height: 24px;
+}
+
+form input, label, form textarea, button {
+    display: block;
+    width: 320px;
+}
+
+header h1 {
+    font-size: 35px;
+}
+
+.banner {
+    display: flex;
+align-items: center;
+justify-content:space-around;
+}
+
+.bar {
+    inset: 640px 200px;
+    -ms-flex-item-align: center; 
+justify-content: center;
+height: 30px; 
+font-size: medium;
+background-color: black;
+color: aliceblue;
+text-decoration:none;
+position:fixed;
+bottom:auto;
+}
